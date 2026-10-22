@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Cómo interactúa? Transformar | Google Magenta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="interactua.css">
+</head>
+<body>
+  <div class="stage" id="stage">
+    <img class="bg bg--tenue" src="assets/interactua/fondo-tenue.png" alt="">
+    <main class="diseno">
+      <h1 class="i-titulo">¿Cómo interactúa?</h1>
+      <p class="i-bajada">Del piano tradicional a nuevas formas de crear música. Permiten tocar, transformar y generar melodías mediante modelos de inteligencia artificial.</p>
+
+      <div class="cards">
+        <section class="card card--1 on">
+          <p class="card__etq">01 · TOCAR</p>
+          <div class="card__visual"><i class="tecla" style="left:0px"></i><i class="tecla" style="left:38px"></i><i class="tecla" style="left:76px"></i><i class="tecla tecla--on-azul" style="left:114px"></i><i class="tecla" style="left:152px"></i><i class="tecla" style="left:190px"></i><i class="tecla" style="left:228px"></i><i class="tecla" style="left:266px"></i><i class="tecla tecla--negra" style="left:24px"></i><i class="tecla tecla--negra" style="left:62px"></i><i class="tecla tecla--negra" style="left:138px"></i><i class="tecla tecla--negra" style="left:176px"></i><i class="tecla tecla--negra" style="left:214px"></i></div>
+          <p class="card__pie">Piano tradicional</p>
+        </section>
+        <section class="card card--2 on">
+          <p class="card__etq">02 · TRANSFORMAR</p>
+          <div class="grafico"><i style="left:0;top:80px;width:40px"></i><i style="left:46px;top:56px;width:30px"></i><i style="left:82px;top:70px;width:34px"></i><img src="assets/interactua/flecha-chica.svg" alt="" style="left:124px;top:56px;width:40px;height:24px"><i class="cn" style="left:172px;top:40px;width:30px"></i><i class="cn" style="left:206px;top:70px;width:34px"></i><i class="cn" style="left:172px;top:90px;width:60px"></i></div>
+          <p class="card__pie">La IA modifica</p>
+        </section>
+        <section class="card card--3 off">
+          <p class="card__etq">03 · GENERAR</p>
+          <div class="card__visual"><i class="nota " style="left:0px;top:60px;width:50px"></i><i class="nota " style="left:60px;top:30px;width:70px"></i><i class="nota " style="left:140px;top:70px;width:40px;opacity:0.8"></i><i class="nota " style="left:190px;top:20px;width:80px;opacity:0.6"></i><i class="nota " style="left:0px;top:0px;width:30px;opacity:0.4"></i><i class="nota " style="left:230px;top:80px;width:50px;opacity:0.5"></i></div>
+          <p class="card__pie">La IA crea</p>
+        </section>
+        <img src="assets/interactua/flecha.svg" alt="" style="left:363px;top:119px;width:44px;height:24px">
+        <img src="assets/interactua/flecha.svg" alt="" style="left:792px;top:122px;width:44px;height:24px">
+      </div>
+
+      <div class="pista"><div class="seg">TOCAR</div><div class="seg on">TRANSFORMAR</div><div class="seg">GENERAR</div><div class="seg seg--sig">▶▶</div></div>
+      <div class="slider" data-paso="1"></div>
+    </main>
+  </div>
+  <script src="stage.js"></script>
+  <script src="slider.js"></script>
+</body>
+</html>
