@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aplicaciones de Magenta: Temperatura | Google Magenta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="interactua.css">
+</head>
+<body>
+  <div class="stage" id="stage">
+    <img class="bg" src="assets/interactua/fondo.png" alt="">
+    <main class="diseno">
+      <h1 class="a-titulo">Aplicaciones de Magenta</h1>
+      <div class="a-caja"></div>
+      <div class="a-panel" style="top:284px"></div>
+      <h2 class="a-nombre" style="left:178px;top:327px">TEMPERATURA</h2>
+      <p class="a-desc" style="left:178px;top:411px;width:572px">Define qué tan predecible o arriesgada es la generación.</p>
+      <p class="t-etq" style="left:873.5px;top:313px">BAJA</p>
+      <p class="t-etq t-etq--chica" style="left:1166px;top:370px">más predecible</p>
+      <p class="t-etq t-etq--chica" style="left:1154.5px;top:519px">más variada</p>
+      <p class="t-etq" style="left:873px;top:452px">ALTA</p>
+      <i class="t-rosa" style="left:842px"></i>
+      <i class="t-rosa" style="left:871px"></i>
+      <i class="t-rosa" style="left:900px"></i>
+      <i class="t-rosa" style="left:929px"></i>
+      <i class="t-rosa" style="left:958px"></i>
+      <i class="t-rosa" style="left:987px"></i>
+      <i class="t-cian" style="left:842px;top:510px;height:29px"></i>
+      <i class="t-cian" style="left:865px;top:518px;height:21px"></i>
+      <i class="t-cian" style="left:934px;top:518px;height:21px"></i>
+      <i class="t-cian" style="left:1026px;top:518px;height:21px"></i>
+      <i class="t-cian" style="left:957px;top:510px;height:29px"></i>
+      <i class="t-cian" style="left:1003px;top:510px;height:29px"></i>
+      <i class="t-cian" style="left:888px;top:510px;height:29px"></i>
+      <i class="t-cian" style="left:911px;top:498px;height:41px"></i>
+      <i class="t-cian" style="left:980px;top:489px;height:50px"></i>
+      <div class="abs" style="left:1081.77px;top:308px;width:0;height:237px;display:flex;align-items:center;justify-content:center"><div style="position:relative;flex:none;width:237px;height:0;transform:rotate(-90deg)"><img src="assets/interactua/linea-temp.svg" alt="" style="position:absolute;max-width:none;left:-1.27%;top:-4px;width:102.54%;height:calc(100% + 7px)"></div></div>
+      <div class="a-tabs"><div class="a-tab">CONTINUE</div><div class="a-tab">GENERATE</div><div class="a-tab">INTERPOLACIÓN</div><div class="a-tab on">TEMPERATURA</div><div class="a-tab a-tab--sig">▶▶</div></div>
+      <div class="slider" data-paso="6"></div>
+    </main>
+  </div>
+  <script src="stage.js"></script>
+  <script src="slider.js"></script>
+</body>
+</html>
